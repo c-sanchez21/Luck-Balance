@@ -29,12 +29,8 @@ namespace Luck_Balance
             int k = 3;
 
             //Key value pairs
-            /*
             int[][] kvp = new int[][] {new int[] {5,1}, new int[] { 2, 1 }, new int[] {1,1},
-                                        new int[] {8,1 }, new int[] {10,0 }, new int[] {5,0 } };
-                                    */
-            int[][] kvp = new int[6][];
-
+                                        new int[] {8,1 }, new int[] {10,0 }, new int[] {5,0 } };                                    
             IOrderedEnumerable<int[]> orderedPair =  kvp.OrderByDescending(x => x[0]); //Sort pairs by their luck, highest first;          
             int lost = 0;//Count of important contest lost;
             int luck = 0; 
