@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-HackerRank Challenge: Luck Balance
+HackerRank Challenge: Luck Balance - https://www.hackerrank.com/challenges/luck-balance/problem
 Lena is preparing for an important coding competition 
 that is preceded by sequential preliminary contests.
 She believes in "saving luck", and wants to check her theory.
